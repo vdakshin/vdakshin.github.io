@@ -33,5 +33,5 @@ header-img: "img/about-bg.jpg"
 
 <strong>Integrated Health Information Technology and the Quality of Patient Care: A Natural Experiment</strong>
 <br/><small>with Alain Pinsonneault, Shamel Addas, Christina Qian and Robyn Tamblyn</small>
-<br/><small><em>[Journal of Management Information Systems](https://www.jmis-web.org/articles/1339)</em></small>
+<br/><small><em>[Journal of Management Information Systems](https://www.jmis-web.org/articles/1339), 2017 </em></small>
 
