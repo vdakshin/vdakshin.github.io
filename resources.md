@@ -12,18 +12,19 @@ header-img: "img/about-bg.jpg"
 <br/><small><em>[TMLS Micro-Summit on Retail and Advertising](https://www.eventbrite.ca/e/toronto-machine-learning-micro-summit-series-tmls-retail-and-advertising-special-focus-tickets-56919639173#), March 2019 </em></small>
 <br/><small><em>In this talk, I explore the question of whether true autonomic marketing is possible. To answer this question, I provide an overview of AI applications in advertising and marketing with an emphasis on digital marketing. Specifically, I survey the applications of AI in promotions, advertisements, search, pricing and programmatic marketing. Given the current state, I then explore what might be possible in the future. Towards this, I present some of the trends in AI unocovered by Omnicom Media Group and our point of view on AI applications in advertising and retail. Finally, I conclude with some case studies of applying AI at OMG and lessons learned.</em></small>
 
-<strong><em>Cryptography for Privacy-Preserving Machine Learning</em></strong>
-<br/><small><em>[AI & Trust at Applied Machine Learning Days](https://www.appliedmldays.org/tracks/16), January 2019 ([slides](https://github.com/mortendahl/talks/blob/master/AMLD19-slides.pdf))</em></small>
-<br/><small><em>[Zero Knowledge TLV](https://www.meetup.com/Zero-Knowledge-TLV/events/257367262/), January 2019 ([slides](https://github.com/mortendahl/talks/blob/master/ZKTLV19-slides.pdf), [video](https://www.youtube.com/watch?v=kiB882Gphlc&index=6&list=PLPBfQd03L-pEQPAWAVgCNd1imztlg0HcA))</em></small>
-<br/><small><em>[Hacking Deep Learning](https://deep-learning.forms-wizard.co.il/), January 2019 (**[slides](https://github.com/mortendahl/talks/blob/master/HDL19-slides.pdf)**, [video](https://www.youtube.com/watch?v=KkJZgYPEkkA&list=PL8Vt-7cSFnw1dO9kc2_SQQRchzpQQDYXy&index=3))</em></small>
-<br/><small><em>[IFIP Summer School on Privacy and Identity Management](https://www.ifip-summerschool.org/), August 2018 ([slides](https://github.com/mortendahl/talks/blob/master/IFIP18-slides.pdf))</em></small>
-<br/><small><em>[(Cyber)Security for Software Engineers](https://www.meetup.com/Security-in-the-cloud/events/250842210/), June 2018 ([slides](https://github.com/mortendahl/talks/raw/master/ParisCybersecurity18-slides.pdf))</em></small>
-<br/><small><em>[Paris Machine Learning Meetup](https://www.meetup.com/Paris-Machine-learning-applications-group/events/241149337/) (ParisML), December 2017 ([slides](https://github.com/mortendahl/talks/raw/master/ParisML17.pdf))</em></small>
-<br/><small><em>In this talk we focus on recent applications of advanced cryptographic methods to machine learning, in particular deep learning. After illustrating how tools such as homomorphic encryption and multi-party computation can benefit the machine learning process in terms of privacy and trust, we proceed to give a high-level overview of their underlying principles in order to understand differences, weaknesses, and strengths. As an example we show how a model can be trained on data that remain encrypted throughout the whole process. We do so using TF Encrypted, a library on top of TensorFlow for working with encrypted data.</em></small>
+<strong>Time series modeling of network traffic and alarms</strong>
+<br/><small><em>[Vector Institute for Artificial Intelligence Endless Summer School on Time Series Applications
+](https://vectorinstitute.ai/), TELUS presentation, November 2018 </em></small>
+<br/><small><em>In this talk, we describe two use cases where we have applied time series modeling techniques. In the network traffic forecasting use case, we describe our approach to forecasting traffic which was then used in network build planning and prioritization. In the network alarms use case, we describe an approach where we apply deviations from trend to proactively spot alarms and identify device breakdowns. In both cases, we describe some implementation challenges and conclude with lessons learned.</em></small>
 
-<strong>What Privacy Has Meant For Snips</strong>
-<br/><small><em>[Privacy in Statistical Analysis](http://wwwf.imperial.ac.uk/~nadams/events/ic-rss2017/ic-rss2017.html) (PSA), May 2017 ([slides](https://github.com/mortendahl/talks/raw/master/PSA17-slides.pdf))</em></small>
-<br/><small><em>Privacy has been a guiding component at Snips from its very beginning, partly motivated by a core belief but also by a business rationale. In this talk we will outline some of the arguments that have led to our decisions and illustrate some of the challenges we have faced. We will further discuss a few concrete techniques by which we have aimed to overcome these, tailored to the fact that Snips is primarily focused on mobile and IoT.</em></small>
+<strong><em>Big Data and applications at TELUS</em></strong>
+<br/><small><em>[CASCON 2018: Workshop on developing Big Data Applications and Services](https://dl.acm.org/citation.cfm?id=3291361), October 2018 </em></small>
+
+<strong>Evaluating the success of conversational agents at TELUS</strong>
+<br/><small><em>[Vector Institute for Artificial Intelligence Endless Summer School on New Algorithms
+](https://vectorinstitute.ai/), TELUS presentation, November 2017 </em></small>
+<br/><small><em>In this talk, we will present the results of the evaluation of business success of conversational agents at TELUS. Noting the two sides of conversational AI, namely the task-completion or productivity side and the emotional side, we present the evaluations from deploying multiple conversational agents across brands and different lines of business at TELUS. Our study emphasizes the importance of multidimensional evaluation of commercial deployment of conversational agents. Our evaluations also provide insight into the next generation of conversational agents, namely agents that generate context-sensitive responses, and the opportunities with deep learning based chatbots. We also outline TELUS's overall chatbot strategy as part of the end to end customer experience and our vision for AI.</em></small>
+
 
 # Papers
 
