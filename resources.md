@@ -3,18 +3,14 @@ layout: page
 title: "Resources"
 description: "Talks, papers, and more"
 header-img: "img/about-bg.jpg"
-twitter:     "mortendahlcs"
-github:      "mortendahl"
-linkedin:    "mortendahlcs"
-email:       "mortendahlcs@gmail.com"
+
 ---
 
 # Talks
 
-<strong>Privacy-Preserving Machine Learning in TensorFlow with TF Encrypted</strong>
-<br/><small><em>[RAAIS](https://raais.co/speakers-2019-morten-dahl-dropout-labs), June 2019 (**upcoming**)</em></small>
-<br/><small><em>[O'Reilly AI Conference New York](https://conferences.oreilly.com/artificial-intelligence/ai-ny/public/schedule/detail/76542), April 2019 ([slides](https://github.com/mortendahl/talks/blob/master/OReillyAI19-slides.pdf))</em></small>
-<br/><small><em>We focus on recent applications of privacy-preserving techniques to machine learning, in particular deep learning, and review how tools such as homomorphic encryption and multi-party computation can benefit the machine learning process. We then more in-depth with concrete examples of how the TF Encrypted open source library can be used to explore and experiment directly in TensorFlow, showing how predictions can be done without exposing the prediction input, and how a model can be fitted without ever exposing the training data.</em></small>
+<strong>Autonomic Marketing: How far are we?</strong>
+<br/><small><em>[TMLS Micro-Summit on Retail and Advertising](https://www.eventbrite.ca/e/toronto-machine-learning-micro-summit-series-tmls-retail-and-advertising-special-focus-tickets-56919639173#), March 2019 </em></small>
+<br/><small><em>In this talk, I explore the question of whether true autonomic marketing is possible. To answer this question, I provide an overview of AI applications in advertising and marketing with an emphasis on digital marketing. Specifically, I survey the applications of AI in promotions, advertisements, search, pricing and programmatic marketing. Given the current state, I then explore what might be possible in the future. Towards this, I present some of the trends in AI unocovered by Omnicom Media Group and our point of view on AI applications in advertising and retail. Finally, I conclude with some case studies of applying AI at OMG and lessons learned.</em></small>
 
 <strong><em>Cryptography for Privacy-Preserving Machine Learning</em></strong>
 <br/><small><em>[AI & Trust at Applied Machine Learning Days](https://www.appliedmldays.org/tracks/16), January 2019 ([slides](https://github.com/mortendahl/talks/blob/master/AMLD19-slides.pdf))</em></small>
