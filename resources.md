@@ -8,6 +8,10 @@ header-img: "img/about-bg.jpg"
 
 # Talks
 
+<strong>Potential Impact of AI on Jobs: A View into the Telecom Industry</strong>
+<br/><small><em>[AI Squared Forum](http://www.aisquaredforum.ca/), September 2019 </em></small>
+<br/><small><em>It has been suggested that AI and automation will eliminate or reduce jobs. At the same time the proponents of augmented intelligence world view suggest that AI will free up employees to do more higher value jobs and tasks. In this talk I evaluate the potential impacts of AI and automation on jobs. Specifically, I explore the current jobs in the telecom industry and evaluate the impacts of AI and automation on those jobs. I then consider some employment trends in major telecom operators and conclude with some implications and calls to action.</em></small>
+
 <strong>Autonomic Marketing: How far are we?</strong>
 <br/><small><em>[TMLS Micro-Summit on Retail and Advertising](https://www.eventbrite.ca/e/toronto-machine-learning-micro-summit-series-tmls-retail-and-advertising-special-focus-tickets-56919639173#), March 2019 </em></small>
 <br/><small><em>In this talk, I explore the question of whether true autonomic marketing is possible. To answer this question, I provide an overview of AI applications in advertising and marketing with an emphasis on digital marketing. Specifically, I survey the applications of AI in promotions, advertisements, search, pricing and programmatic marketing. Given the current state, I then explore what might be possible in the future. Towards this, I present some of the trends in AI unocovered by Omnicom Media Group and our point of view on AI applications in advertising and retail. Finally, I conclude with some case studies of applying AI at OMG and lessons learned.</em></small>
