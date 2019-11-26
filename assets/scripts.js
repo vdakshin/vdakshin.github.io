@@ -6,7 +6,7 @@ $(function() {
     $("#contactForm").submit(function(e) {
       e.preventDefault();
       $.ajax({
-        url: "//formspree.io/my@email.com", 
+        url: "//formspree.io/vijay.dakshinamoorthy@gmail.com", 
         method: "POST",
         data: $(this).serialize(),
         dataType: "json",
