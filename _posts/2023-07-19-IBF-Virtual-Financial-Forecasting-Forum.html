@@ -1,0 +1,65 @@
+---
+layout: post
+comments: true
+title: "Forecasting Financial Metrics using Machine Learning and Data Science"
+subtitle: "A view into Financial Forecasting and some thoughts on methods and techniques."
+date: 2023-07-19 23:45:13 -0400
+background: '/img/posts/04.jpg'
+---
+
+<p>Recently I was invited to present at the Virtual Financial Forecasting, Planning & Budgeting Conference organized by the Institute of Business Forecasting & Planning. I spoke on the topic of Forecasting Financial Metrics using Machine Learning and Data Science and shared our journey at Bell in in applying data science and machine learning for financial forecasting. This blog post is based on that talk.</p>
+
+<p>Here is a brief agenda for my talk. I'll begin with a quick overview about Bell and our organization. I'll then talk about the forecasting we do in the Finance group and the needs of next generation FP&A. I'll then get into the data science methods for FP&A and the AI Modules that are relevant for FP&A. I'll also touch upon what we have done at Bell along these lines. We'll then look at evaluation of forecasts and success criteria. Finally I will conclude with some insights for executives and finance professionals and some tips based on our journey.</p>
+
+<p>BCE or Bell Canada Enterprises is the largest telecommunications company in Canada and it provides a range of products and services for consumers, businesses and government organizations. </p>
+
+<p>It provides mobile data and voice plans both prepaid and postpaid for consumers on the 4G and 5G networks. Bell residential services offers fiber based Internet and TV services as well as business services to our business customers. Bell Media operates TV channels such as CTVnews RDS and streaming service namely Crave. It also invests in content creation including sports, entertainment and TV. Bell is also one of Canada's leading retailers with 8000+ locations for distribution across Canada.</p>
+
+<p>Like mentioned earlier, I lead the data science team in the Financial analytics Centre of Excellence (COE) which is part of a Finance 2025 vision to better leverage data, tools, systems and processes to enable a more effective and efficienty finance function. There are currently 59 team members in the COE across various teams and about 9 members in the data science team. The main mandate is to standardize and streamline processes, drive efficiencies and leverage AI and ML as key enablers.</p>
+
+<h2 class="section-heading">Forecasting and FP&A</h2>
+
+<p>The financial forecasting process at Bell involves the business units preparing plans in August and September and these plans are reviewed with corporate in October and reviewed with Senior Executives and the board. In early December the plans are approved and detailed budgets are developed by the business units and documented in the systems.</p>
+
+<p>There are 3 forecasts submitted which are known as the YEEs or Year End Expectancy that is produced in the months of April, July and October. Additional forecasts may be produced as needed.</p>
+
+<p>In terms of systems - SAP instance along with the business intelligence warehouse and the business planning and consolidation module is used for recording and managing the forecasts and budgets.</p>
+
+<p>When we think about a next generation FP&A, there are 5 aspects we pay attention to - first the ability to produce rolling forecasts - typically it is a 12-24 month rolling forecast with routine processes automated. It also incorporates driver-based modelling where external drivers are incorporated and collaboration with operations and other units happens. Next generation FP&A also means that the planning process moves from an annual event to a continuous process and it incorporates scenario modeling and planning. Another important component is the integration of processes, systems and data. This will enable a centralized data warehouse and an integrated forecasting and planning process. Finally, we need to measure the impact of the evolved FP&A process. We could measure the impact that it is having on stakeholders and the business through a variety of qualitative and quantitative measures.</p>
+
+
+<h2 class="section-heading">Data Science Methods</h2>
+<p>Several data science and machine learning methods are available for forecasting. We begin with classification which can be applied for predicting the likelihood of win or loss in business contracts. Decision trees and random forests are common machine learning techniques in classification. Regression methods are used for predicting contract value in business contracts and again Decision Trees, Random Forests and XGBOOST are common machine learning techniques in regression. Finally forecasting methods can be applied for forecasting revenue, volumes, rates and usage. Time series techniques such as ARIMA, Hierarchical Time Series and Exponential Smoothing methods are commonly used in forecasting along with Decision Trees, Random Forests and XGBOOST as well.</p>
+
+<blockquote class="blockquote">According to Accenture, 55% of AI high performers had a roadmap prioritizing AI initiatives linked to business value.</blockquote>
+
+<p>This is how we have developed our solutions which we call Intelligent Forecasting (IF) solutions at Bell. We have a centralized data source which we call the Financial Data Warehouse where all historical and transactional data is stored. We have then developed data pipelines and machine learning pipelines in a workflow tool namely Alteryx and do model training and prediction there. The results are then exposed through reports and dashboards in visualization tools such as Microstrategy.</p>
+
+<p>We pay close attention to building driver-based models and having explainability in our machine learning models. Driver based models use operational drivers such as volumes, rates, conversion ratios etc. and in many cases we have a volume times rate or P x Q calculation to come up with the final revenues. Explainability follows in the sense there is a level of transparency for stakeholders on how the machine learning models or calculation engines produce the outputs.</p>
+
+<h2 class="section-heading">AI Modules</h2>
+
+<p>We have also developed what we call AI Modules which are reusable components that can be used across multiple business unit use cases. These modules also use fairly sophisticated algorithms. Some of these AI modules include a scenario planning module which could include sensitivity analysis such as increasing or decreasing volumes or rates by say 10%, changing these variables and cascading the effects to future periods, also the reverse scenario modeling where you define a target and try to seek that goal. There is also the root cause engine and anomaly detection modules which I will talk more about on the next slide. And finally an automated commentary generation engine and virtual reporting agent or smart reporting.</p>
+
+<img class="img-ibf" src="/img/posts/Virtual_Financial_Forecasting_IBF_July_2023.png" alt="IBF Image">
+<span class="caption text-muted">Virtual Financial Forecasting, Planning & Budgeting Conference by Institute of Business Forecasting and Planning </span>
+
+<p>The anomaly detection module and root cause engine has been applied to multiple business unit use cases in finance. The Anomaly Detection Module consists of a monthly anomaly detection and a daily anomaly detection. These algorithms use the distributions of historical points to flag anomalies in KPIs including revenue and usage. The root cause engine includes variance analysis, an automated commentary engine and machine learning interpretability. It explains the variance between actuals from one period to another, actuals and forecast for the same period and between forecasts produced at different periods. It explains this variance in terms of drivers. The automated commentary engine uses this variance information to generate a comments automatically. The machine learning interpretability engine uses Shap analysis to explain the variances in the forecasts.</p>
+
+<h2 class="section-heading">Evaluation</h2>
+
+<p>In terms of evaluating forecasts, obviously forecast accuracy is a big component of the evaluation. We use the forecast bias and bias % as well as MAPE as the main metrics for evaluating forecasts. We also have a more comprehensive framework that looks at these success criteria namely explainability, accuracy, efficiency, speed, governance/control & compliance and process improvements in assessing the solutions and forecasts.</p>
+
+<h2 class="section-heading">Insights for Executives</h2>
+
+<p>I thought I would conclude with some pointers as to what it means for finance executives and professionals looking to get started in applying data science, AI and machine learning in finance. Here are a couple of trends in AI and finance according to Accenture and Gartner. First 55% of AI high performers had a roadmap prioritizing AI initiatives linked to business value. So clearly these organizations are able to extract value from AI. Gartner has also been studying the trend towards autonomous finance. The idea here being that many functions in finance can be automated and made intelligent through the application of AI and ML. According to Gartner 64% of CFOs believe that autonomous finance will become a reality in about the next 6 years. When we look at the top two barriers again according to Gartner mindsets such as use technology but rely on people to make decisions and teams will embrace when they see benefits are the key barriers along with the understanding of AI benefits and uses. In terms of the top 3 decisions that executives have to make - first comes experimenting - what experiments are you looking to conduct to pursue innovation and scale the impact of AI second - how will you compare human judgment and algorithms - will you adopt a mindset that asks for an absolute threshold when it comes to AI performance or will you take the mindset of the AI should perform as good as or better than humans. Finally what executive level objective will you anchor AI innovations on and how will you pursue strategic scaling.</p>
+
+<p>So where should someone looking to use data science and machine learning for FP&A start? First decide on the key objective or metric you want to optimize through AI and ML. Then think about the decisions in FP&A that you can reengineer through application of AI and ML. Then consider the tangible benefits you can derive through AI / ML based forecasting. </p>
+
+<p>Then start by ingesting and centralizing the data in a data warehouse, enhance the data by enrichment and start automating processes. Finally monitor and ensure the quality of the data. When it comes to models start with your excel files and begin automating the processes, enhance by applying machine learning and algorithms and finally connect the workflows to the centralized data source and schedule the workflows. When it comes to decisions, identify and prioritize decisions to reengineer, reengineer and implement a decision intelligence system for automation and augmentation and finally embed the decision and monitor and evaluate.</p>
+
+<p>Finally, some tips for data-driven FP&A - start small and iterate, ensure that you have sufficient historical data find ways to account for the covid periods. Balance accuracy with other criteria such as timeliness, automation and granularity. Incorporate driver based modeling which will also help in scenario modeling. Aim for explainability and transparency. Adopt a product management and agile data science mindset and finally measure impact and refine.</p>
+
+<h2 class="section-heading">Conclusion</h2>
+
+<p>I hope this provides you an overview of our journey in financial forecasting. If you want to discuss any of these topics further, feel free to reach out.</p>
